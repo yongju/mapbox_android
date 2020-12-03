@@ -3,19 +3,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_corona_live">
+
+    <fragment
+        android:id="@+id/nav_corona_live"
+        android:name="S.N.R.I.tracking.ui.corona.BrowserFragment"
+        android:label="@string/menu_corona_live"
+        tools:layout="@layout/fragment_corona_live" />
 
     <fragment
         android:id="@+id/nav_home"
         android:name="S.N.R.I.tracking.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
-
-    <fragment
-        android:id="@+id/nav_gallery"
-        android:name="S.N.R.I.tracking.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_slideshow"

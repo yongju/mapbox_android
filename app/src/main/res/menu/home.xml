@@ -6,4 +6,14 @@
         android:orderInCategory="100"
         android:title="@string/action_settings"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/action_locations"
+        android:orderInCategory="100"
+        android:title="Locations"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_route"
+        android:orderInCategory="200"
+        android:title="@string/action_route"
+        app:showAsAction="never" />
 </menu>

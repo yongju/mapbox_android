@@ -1,4 +1,4 @@
-package S.N.R.I.tracking.ui.gallery
+package S.N.R.I.tracking.ui.corona
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
