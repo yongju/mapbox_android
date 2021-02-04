@@ -7,6 +7,7 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import S.N.R.I.tracking.R
 import S.N.R.I.tracking.databinding.FragmentCoronaLiveBinding
+import android.annotation.SuppressLint
 import android.content.Context
 import android.net.Uri
 import android.os.Build
@@ -21,8 +22,6 @@ import androidx.appcompat.app.AppCompatActivity
 class BrowserFragment : Fragment() {
 
     private val URL_CORONA_LIVE     = "https://corona-live.com"
-    private val URL_NAVER_LG_WOO    = "https://m.stock.naver.com/item/main.nhn#/stocks/003555/total"
-    private val URL_NAVER_LG        = "https://m.stock.naver.com/item/main.nhn#/stocks/003550/total"
 
     private lateinit var galleryViewModel: GalleryViewModel
     private lateinit var binding: FragmentCoronaLiveBinding
@@ -38,12 +37,13 @@ class BrowserFragment : Fragment() {
         }
     }
 
+    @SuppressLint("SetJavaScriptEnabled")
     override fun onCreateView(
             inflater: LayoutInflater,
             container: ViewGroup?,
             savedInstanceState: Bundle?
-    ): View? {
-        setHasOptionsMenu(true);
+    ): View {
+        setHasOptionsMenu(true)
 
         galleryViewModel =
                 ViewModelProvider(this).get(GalleryViewModel::class.java)
@@ -89,23 +89,31 @@ class BrowserFragment : Fragment() {
         inflater.inflate(R.menu.browser, menu)
     }
 
+    @SuppressLint("StringFormatInvalid")
     @RequiresApi(Build.VERSION_CODES.O)
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
 
-        var url = when(item.itemId) {
+        val url = when(item.itemId) {
             R.id.action_corona_live -> URL_CORONA_LIVE
-            R.id.action_naver_lg_woo -> URL_NAVER_LG_WOO
-            R.id.action_naver_lg -> URL_NAVER_LG
+            R.id.action_naver_lg -> getStockUrl(0)
+            R.id.action_naver_lg_woo -> getStockUrl(1)
+            R.id.action_naver_samsung -> getStockUrl(2)
+            R.id.action_naver_samsung_woo -> getStockUrl(3)
             else -> URL_CORONA_LIVE
         }
 
         binding.web.loadUrl(url)
         val act = activity
         if (act is AppCompatActivity) {
-            val uri = Uri.parse(url);
+            val uri = Uri.parse(url)
             act.supportActionBar!!.title = uri.host
 
         }
         return super.onOptionsItemSelected(item)
+    }
+
+    private fun getStockUrl(index: Int): String {
+        val code = resources.getStringArray(R.array.stock_numbers)[index]
+        return getString(R.string.url_stock, code)
     }
 }

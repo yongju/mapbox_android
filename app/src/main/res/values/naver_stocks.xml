@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="url_stock">
+        https://m.stock.naver.com/item/main.nhn#/stocks/%s/total
+    </string>
+
+    <string-array name="stock_numbers">
+        <item>003550</item> <!-- LG -->
+        <item>003555</item> <!-- LG우 -->
+        <item>005935</item> <!-- 삼전우 -->
+        <item>005930</item> <!-- 삼전 -->
+    </string-array>
+</resources>
