@@ -1,4 +1,4 @@
-package S.N.R.I.tracking
+package dev.snri.tracking
 
 import org.junit.Test
 
