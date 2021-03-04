@@ -1,4 +1,4 @@
-package S.N.R.I.tracking.ui.slideshow
+package dev.snri.tracking.ui.slideshow
 
 import android.os.Bundle
 import android.view.LayoutInflater

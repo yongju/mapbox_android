@@ -1,4 +1,4 @@
-package S.N.R.I.tracking.ui.home
+package dev.snri.tracking.ui.home
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

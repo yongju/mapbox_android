@@ -1,4 +1,4 @@
-package S.N.R.I.tracking.database.entity
+package dev.snri.tracking.entity
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

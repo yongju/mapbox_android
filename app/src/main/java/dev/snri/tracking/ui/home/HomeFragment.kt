@@ -1,11 +1,11 @@
-package S.N.R.I.tracking.ui.home
+package dev.snri.tracking.ui.home
 
 import S.N.R.I.tracking.R
-import S.N.R.I.tracking.TrackingApp
+import dev.snri.tracking.TrackingApp
 import S.N.R.I.tracking.databinding.FragmentHomeBinding
 import S.N.R.I.tracking.api.RideRoute
-import S.N.R.I.tracking.api.Route
-import S.N.R.I.tracking.api.TrackingRoute
+import dev.snri.tracking.api.Route
+import dev.snri.tracking.api.TrackingRoute
 import android.annotation.SuppressLint
 import android.location.Location
 import android.os.Bundle

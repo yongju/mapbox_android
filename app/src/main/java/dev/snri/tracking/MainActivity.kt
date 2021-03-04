@@ -1,5 +1,6 @@
-package S.N.R.I.tracking
+package dev.snri.tracking
 
+import S.N.R.I.tracking.R
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar

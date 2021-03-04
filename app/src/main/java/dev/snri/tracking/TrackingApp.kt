@@ -1,5 +1,7 @@
-package S.N.R.I.tracking
+package dev.snri.tracking
 
+import S.N.R.I.tracking.BuildConfig
+import S.N.R.I.tracking.R
 import android.app.Application
 import com.mapbox.mapboxsdk.Mapbox
 import timber.log.Timber

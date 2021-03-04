@@ -3,7 +3,7 @@
     package="S.N.R.I.tracking">
 
     <application
-        android:name=".TrackingApp"
+        android:name="dev.snri.tracking.TrackingApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -12,7 +12,7 @@
         android:theme="@style/Theme.Tracking"
         android:usesCleartextTraffic="true">
 
-        <activity android:name=".IntroActivity">
+        <activity android:name="dev.snri.tracking.IntroActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,7 +20,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="dev.snri.tracking.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/Theme.Tracking.NoActionBar">
         </activity>

@@ -1,5 +1,6 @@
-package S.N.R.I.tracking
+package dev.snri.tracking
 
+import S.N.R.I.tracking.R
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast

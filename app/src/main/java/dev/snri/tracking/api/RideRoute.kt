@@ -1,4 +1,4 @@
-package S.N.R.I.tracking.api
+package dev.snri.tracking.api
 
 import S.N.R.I.tracking.R
 import android.animation.Animator

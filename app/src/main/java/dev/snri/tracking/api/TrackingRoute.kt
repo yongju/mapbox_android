@@ -1,4 +1,4 @@
-package S.N.R.I.tracking.api
+package dev.snri.tracking.api
 
 import android.content.Context
 import com.mapbox.geojson.Point

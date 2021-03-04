@@ -1,9 +1,7 @@
-package S.N.R.I.tracking.ui.corona
+package dev.snri.tracking.ui.corona
 
 import android.os.Bundle
-import android.widget.TextView
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import S.N.R.I.tracking.R
 import S.N.R.I.tracking.databinding.FragmentCoronaLiveBinding
