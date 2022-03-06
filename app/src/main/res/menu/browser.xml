@@ -11,20 +11,36 @@
     <group android:id="@+id/action_naver_stock">
         <item
             android:id="@+id/action_naver_lg_woo"
-            android:title="Naver LG우"
+            android:title="LG우"
             app:showAsAction="never"
             />
         <item
             android:id="@+id/action_naver_lg"
-            android:title="Naver LG"
+            android:title="LG"
             app:showAsAction="never" />
         <item
+            android:id="@+id/action_naver_lg_es"
+            android:title="LG 에너지솔루션"
+            app:showAsAction="never"/>
+        <item
             android:id="@+id/action_naver_samsung_woo"
-            android:title="Naver 삼성"
+            android:title="삼성"
             app:showAsAction="never" />
         <item
             android:id="@+id/action_naver_samsung"
-            android:title="Naver 삼성우"
+            android:title="삼성우"
             app:showAsAction="never" />
+        <item
+            android:id="@+id/action_naver_sk_tel"
+            android:title="SK 텔레콤"
+            app:showAsAction="never"/>
+        <item
+            android:id="@+id/action_naver_samsung_fire_insurance"
+            android:title="삼성화재"
+            app:showAsAction="never"/>
+        <item
+            android:id="@+id/action_naver_samsung_fire_insurance_woo"
+            android:title="삼성화재우"
+            app:showAsAction="never"/>
     </group>
 </menu>

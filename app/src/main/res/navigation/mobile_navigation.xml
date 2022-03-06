@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/nav_corona_live"
-        android:name="dev.snri.tracking.ui.corona.BrowserFragment"
+        android:name="dev.snri.tracking.ui.browse.BrowseFragment"
         android:label="@string/menu_corona_live"
         tools:layout="@layout/fragment_corona_live" />
 

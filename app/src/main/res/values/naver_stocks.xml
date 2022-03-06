@@ -10,5 +10,9 @@
         <item>003555</item> <!-- LG우 -->
         <item>005935</item> <!-- 삼전우 -->
         <item>005930</item> <!-- 삼전 -->
+        <item>000810</item> <!-- 삼성화재 -->
+        <item>000815</item> <!-- 삼성화재 우-->
+        <item>017670</item><!-- SK텔레콤 -->
+        <item>373220</item> <!-- LG에너지솔루션 -->
     </string-array>
 </resources>

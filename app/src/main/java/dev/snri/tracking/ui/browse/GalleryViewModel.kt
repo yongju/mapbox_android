@@ -1,4 +1,4 @@
-package dev.snri.tracking.ui.corona
+package dev.snri.tracking.ui.browse
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

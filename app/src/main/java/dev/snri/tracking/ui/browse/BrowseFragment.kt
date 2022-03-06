@@ -1,4 +1,4 @@
-package dev.snri.tracking.ui.corona
+package dev.snri.tracking.ui.browse
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -17,7 +17,7 @@ import androidx.activity.OnBackPressedCallback
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 
-class BrowserFragment : Fragment() {
+class BrowseFragment : Fragment() {
 
     private val URL_CORONA_LIVE     = "https://corona-live.com"
 
@@ -97,6 +97,10 @@ class BrowserFragment : Fragment() {
             R.id.action_naver_lg_woo -> getStockUrl(1)
             R.id.action_naver_samsung -> getStockUrl(2)
             R.id.action_naver_samsung_woo -> getStockUrl(3)
+            R.id.action_naver_samsung_fire_insurance ->getStockUrl(4)
+            R.id.action_naver_samsung_fire_insurance_woo ->getStockUrl(5)
+            R.id.action_naver_sk_tel ->getStockUrl(6)
+            R.id.action_naver_lg_es ->getStockUrl(7)
             else -> URL_CORONA_LIVE
         }
 

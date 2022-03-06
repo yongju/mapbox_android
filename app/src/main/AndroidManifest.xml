@@ -12,7 +12,8 @@
         android:theme="@style/Theme.Tracking"
         android:usesCleartextTraffic="true">
 
-        <activity android:name="dev.snri.tracking.IntroActivity">
+        <activity android:name="dev.snri.tracking.IntroActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

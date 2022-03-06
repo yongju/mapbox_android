@@ -3,7 +3,6 @@ package dev.snri.tracking.ui.home
 import S.N.R.I.tracking.R
 import dev.snri.tracking.TrackingApp
 import S.N.R.I.tracking.databinding.FragmentHomeBinding
-import S.N.R.I.tracking.api.RideRoute
 import dev.snri.tracking.api.Route
 import dev.snri.tracking.api.TrackingRoute
 import android.annotation.SuppressLint
@@ -33,6 +32,7 @@ import com.mapbox.mapboxsdk.maps.MapboxMap
 import com.mapbox.mapboxsdk.maps.OnMapReadyCallback
 import com.mapbox.mapboxsdk.maps.Style
 import com.mapbox.mapboxsdk.plugins.localization.LocalizationPlugin
+import dev.snri.tracking.api.RideRoute
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
